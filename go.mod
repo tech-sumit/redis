@@ -1,4 +1,4 @@
-module github.com/go-redis/redis/v8
+module github.com/tech-sumit/redis/v8
 
 go 1.13
 
@@ -9,5 +9,4 @@ require (
 	github.com/onsi/gomega v1.10.5
 	go.opentelemetry.io/otel v0.18.0
 	go.opentelemetry.io/otel/metric v0.18.0
-	go.opentelemetry.io/otel/trace v0.18.0
 )

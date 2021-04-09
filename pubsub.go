@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-redis/redis/v8/internal"
-	"github.com/go-redis/redis/v8/internal/pool"
-	"github.com/go-redis/redis/v8/internal/proto"
+	"github.com/tech-sumit/redis/v8/internal"
+	"github.com/tech-sumit/redis/v8/internal/pool"
+	"github.com/tech-sumit/redis/v8/internal/proto"
 )
 
 const (
