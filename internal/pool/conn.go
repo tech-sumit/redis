@@ -7,7 +7,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tech-sumit/redis/v8/internal"
 	"github.com/tech-sumit/redis/v8/internal/proto"
 )
 
@@ -92,8 +91,6 @@ func (cn *Conn) WithWriter(
 	if err := cn.bw.Flush(); err != nil {
 		return err
 	}
-
-	internal.WritesCounter.Add(ctx, 1)
 
 	return nil
 }
