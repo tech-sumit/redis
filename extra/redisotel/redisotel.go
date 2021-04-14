@@ -3,7 +3,7 @@ package redisotel
 import (
 	"context"
 
-	"github.com/go-redis/redis/extra/rediscmd"
+	"github.com/tech-sumit/redis/extra/rediscmd"
 	"github.com/tech-sumit/redis/v8"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/otel/trace"
 )
 
-var tracer = otel.Tracer("github.com/go-redis/redis")
+var tracer = otel.Tracer("github.com/tech-sumit/redis")
 
 type TracingHook struct{}
 

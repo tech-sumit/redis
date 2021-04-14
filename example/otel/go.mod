@@ -1,4 +1,4 @@
-module github.com/go-redis/redis/example/otel
+module github.com/tech-sumit/redis/example/otel
 
 go 1.14
 
