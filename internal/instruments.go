@@ -7,7 +7,7 @@ import (
 func init() {
 	defer func() {
 		if r := recover(); r != nil {
-			Logger.Printf(context.Background(), "Error creating meter github.com/go-redis/redis for Instruments", r)
+			Logger.Printf(context.Background(), "Error creating meter github.com/tech-sumit/redis for Instruments", r)
 		}
 	}()
 }

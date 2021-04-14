@@ -1,4 +1,4 @@
-module github.com/go-redis/redis/extra/rediscmd
+module github.com/tech-sumit/redis/extra/rediscmd
 
 go 1.15
 
